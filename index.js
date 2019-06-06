@@ -22,7 +22,7 @@ function prependDriver(name){
  copyOfdrivers.unshift("Arnold");
  return copyOfdrivers;
 }
-function appendDriver(){
+function removeLastDriver(){
  const copyOfdrivers = drivers.slice();
  copyOfdrivers.pop("Broom");
  return copyOfdrivers;
