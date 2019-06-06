@@ -16,4 +16,3 @@ function appendDriver(){
  const copyOfdrivers = drivers.slice();
  copyOfdrivers.push("Broom");
 }
-function 
