@@ -13,5 +13,11 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
 function appendDriver(){
-  
+ const copyOfdrivers = drivers.slice();
+ 
+primes.push(11);
+
+ 
+
+
 }
