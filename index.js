@@ -22,3 +22,13 @@ function prependDriver(name){
  copyOfdrivers.unshift("Arnold");
  return copyOfdrivers;
 }
+function appendDriver(){
+ const copyOfdrivers = drivers.slice();
+ copyOfdrivers.pop("Broom");
+ return copyOfdrivers;
+}
+function prependDriver(name){
+  const copyOfdrivers = drivers.slice();
+ copyOfdrivers.shift("Arnold");
+ return copyOfdrivers;
+}
