@@ -4,5 +4,9 @@ function destructivelyAppendDriver(){
   drivers.push("Ralph");
 }
 function destructivelyPrependDriver(){
-  drivers.unshift("Bob")
+  drivers.unshift("Bob");
 }
+function destructivelyRemoveLastDriver(){
+  drivers.pop();
+}
+function 
