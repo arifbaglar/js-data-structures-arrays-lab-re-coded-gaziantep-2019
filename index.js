@@ -24,11 +24,11 @@ function prependDriver(name){
 }
 function removeLastDriver(){
  const copyOfdrivers = drivers.slice();
- copyOfdrivers.pop("Broom");
+ copyOfdrivers.pop();
  return copyOfdrivers;
 }
-function prependDriver(name){
+function removeFirstDriver(){
   const copyOfdrivers = drivers.slice();
- copyOfdrivers.shift("Arnold");
+ copyOfdrivers.shift();
  return copyOfdrivers;
 }
